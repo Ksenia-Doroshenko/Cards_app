@@ -1,7 +1,7 @@
 import './Deck.css';
 
 function Deck(props) {
-    console.log(props)
+    // console.log(props)
     return(
         <>
         <div className="deck_n_trump_container">

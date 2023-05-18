@@ -2,21 +2,42 @@
     /* justify-self: center; */
     align-self: center;
     display: flex;
-    justify-content:space-between;
-    margin: auto 90px;
-    width: 825px;
-    height: 712px;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: auto ;
+    width: max-content;
+    height: 650px;
     position: relative;
-   
 }
 
-.coverind_card{
+.row{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: 390px;
+    position: relative;
+}
+
+.pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 190px;
+}
+
+.second_card_placeholder{
+    position: absolute;
+    top:90px;
+}
+
+/* .coverind_card{
     background-image: url(../../../pictures/card_field.png);
     width: 150px;
     height: 206px;
     background-repeat: no-repeat;
     position: absolute;
-    /* bottom: 150px; */
+
 }
 
 .covered_card{
@@ -26,4 +47,4 @@
     background-repeat: no-repeat;
     position: absolute;
     top: 206px;
-}
+} */

@@ -10,55 +10,70 @@ let initial_state = {
     deck_card_num: 36,
 
     cards_on_table : [
-        {
-            suit : "hurt",
-            index : 6,
-        },
-        {
-            suit: "diamonds",
-            index: "J",
-        },
-        {
-            suit: "diamonds",
-            index: "J",
-        },
-        {
-            suit: "diamonds",
-            index: "J",
-        },
-        {
-            suit: "diamonds",
-            index: "J",
-        },
-        {
-            suit: "diamonds",
-            index: "J",
-        },
-    
-        // second_pair : {
-        //     suit: "diamond",
-        //     index: "J",
-        // },
-    
-        // third_pair : {
-        //     suit: "space",
-        //     index: 10,
-        // },
-    
-        // fourth_pair : {
-        //     suit: "hurt",
-        //     index: 9,
-        // },
-    
-        // fifth_pair : {
-        //     suit: "space",
-        //     index: 8,
-        // },
-    
-        // sixth_pair : {
-        //     suit: "diamond",
-        //     index: 7,
-        // },
+        [
+            {
+                suit : "hurt",
+                index : 8,
+            },
+            {
+                suit: "diamonds",
+                index: "J",
+            },
+        ],
+
+        [
+            {
+                suit : "clubs",
+                index : "K",
+            },
+            {
+                suit: "diamonds",
+                index: 7,
+            },
+        ],
+        [
+            {
+                suit : "hurt",
+                index : 8,
+            },
+            {
+                suit: "diamonds",
+                index: "J",
+            },
+        ],
+
+        [
+            {
+                suit : "clubs",
+                index : "K",
+            },
+            {
+                suit: "diamonds",
+                index: 7,
+            },
+        ],
+        [
+            {
+                suit : "hurt",
+                index : 8,
+            },
+            {
+                suit: "diamonds",
+                index: "J",
+            },
+        ],
+
+        [
+            {
+                suit : "clubs",
+                index : "K",
+            },
+            {
+                suit: "diamonds",
+                index: 7,
+            },
+        ],
+
     ],
 
     self_layout_list: [
