@@ -1,0 +1,163 @@
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(154, 226, 254);
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    /* font-family: "PressStart2P-Regular"; */
+}
+
+.logo{
+    background-image: url(../../pictures/durakLogo.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 100px auto;
+    width: 992px;
+    height: 330px;
+}
+
+
+
+/* .logo{
+    width: 100%;
+    margin-top: 100px;
+} */
+
+.down_group{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 41%;
+}
+
+.hand_of_cards{
+    background-image: url(../../pictures/handOfCards.png);
+    background-repeat: no-repeat;
+    width: 659px;
+    height: 460px;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50vw - 20%);
+    transform: translateY(40%);
+}
+
+.left_down_group, .right_down_group{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.play_btn{
+    position: absolute;
+    top: 50%;
+    height: 144px;
+    width: 176px;
+    margin: 100px 50% 0 45%;
+    margin-top: 40px;
+    background-image: url(../../pictures/playBtn.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 997;
+    
+}
+
+.achievements_btn{
+    background-image: url(../../pictures/achievementsBtn.png);
+}
+
+.profile_btn{
+    background-image: url(../../pictures/profileBtn.png);
+}
+
+.game_rules_btn{
+    background-image: url(../../pictures/gameRulesBtn.png);
+}
+
+.settings_btn{
+    background-image: url(../../pictures/settingsBtn.png);
+}
+
+.mute_btn{
+    background-image: url(../../pictures/muteBtn.png);
+}
+
+.btn{
+    height: 86px;
+    width: 86px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin: 0 15px 0 15px;
+}
+
+/* .hurt_big{
+    background-image: url(./pictures/HurtBig.png);
+    position: absolute;
+    margin: 47% 26%;
+} */
+
+/* .card_suit{
+    height: 130px;
+    width: 130px;
+    background-repeat: no-repeat;
+} */
+
+/* .text, .text>pre{
+    font-family: "PressStart2P-Regular";
+    position: absolute;
+    color: #000000;
+} */
+
+@media screen and (max-width: 1245px) {
+    .hand_of_cards{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .left_down_group, .right_down_group{
+        transform: scale(0.75);
+    }
+}
+
+
+/* .card_field{
+    width: 270px;
+    height: 370px;
+    background-image: url(./pictures/card_field.png);
+    background-repeat: no-repeat;
+    position: absolute;
+} */
+
+/* .card_container{
+    display: flex;
+    width: 270px;
+    height: 370px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+} */
+
+/* .card_index{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    font-size: 30px;
+}
+
+.mini_suit{
+    background-image: url(./pictures/HurtSmall.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+} */

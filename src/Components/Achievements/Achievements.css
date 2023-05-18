@@ -1,0 +1,41 @@
+.achievements_window_wrapper{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 998;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements_window{
+    background-image: url(../../pictures/bigWindow.png);
+    width: 806px;
+    height: 832px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-flow: row nowrap;     
+    justify-content:space-evenly;  
+    position: relative;  
+    /* align-items: center; */
+}
+.exit_btn{
+    background-image: url(../../pictures/exitBtn.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: 75px 0 0 88px;
+
+    
+}
+
+.achievements{
+    background-image: url(https://cs9.pikabu.ru/post_img/big/2017/10/17/1/1508192685174911246.jpg);
+    width: 425px;
+    height: 380px;
+    background-size: cover;
+}

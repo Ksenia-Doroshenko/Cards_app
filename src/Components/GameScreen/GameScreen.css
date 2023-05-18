@@ -1,0 +1,65 @@
+.game_screen_wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.back_to_main_menu_button{
+    background-image: url(../../pictures/settingsWindow.png);
+    width: 165px;
+    height: 90px;
+    background-size: cover;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.back_to_main_menu_text_button{
+    align-self: center;
+    padding: 0px 5px;
+}
+
+.table_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    background-image: url(../../pictures/table.png);
+    background-repeat: repeat;
+    width: 1452px;
+    height: 694px;
+    background-size: cover;
+    display: flex;
+    /* justify-content:space-evenly; */
+}
+
+.self_layout_container{
+    display: flex;
+    /* flex-direction: column; */
+    /* right: 99px; */
+    /* align-content: space-around;*/
+    justify-content: center; 
+    height: 300px;
+    position: relative;
+}
+
+.user_name_and_profile_picture>.profile_picture{
+    background-size: 45px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    
+}
+
+.user_name_and_profile_picture{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 160px;
+    z-index: 998;
+    /* justify-content: space-between;
+    height: max-content;
+    width: max-content;
+    position: absolute; */
+}

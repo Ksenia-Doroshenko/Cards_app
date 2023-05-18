@@ -1,0 +1,21 @@
+.self_cards_wrapper{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    align-content: flex-end;
+    width: max-content;
+    height: max-content;
+    /* transform: translateX(-5%); */
+    /* transform: scale(0.7); */
+}
+
+.self_card{
+    background-image: url(../../../pictures/card_field.png);
+    width: 160px;
+    height: 206px;
+    background-repeat: no-repeat;
+    background-image: cover;
+    
+}
